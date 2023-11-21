@@ -1,0 +1,64 @@
+#main {
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 100vh;
+  border-radius: 10px;
+}
+
+#title {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  font-size: 36px;
+  color: #333;
+  border-bottom: 5px solid #333;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #333;
+}
+
+#img-caption {
+  margin: 10px;
+  font-size: 2vh;
+  color: #333;
+}
+
+#tribute-info {
+  margin: 20px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+#tribute-link {
+  color: #333;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+#hashtag {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
